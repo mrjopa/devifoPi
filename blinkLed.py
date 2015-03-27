@@ -7,7 +7,7 @@ GPIO.setup(14, GPIO.OUT)
 
 
 count = 0
-while (count < 9):
+while (count < 3):
    print 'The count is:', count
    count = count + 1
    GPIO.output(14, True)
@@ -20,3 +20,4 @@ while (count < 9):
 GPIO.cleanup()
 
 print "Good bye!"
+print "========="
